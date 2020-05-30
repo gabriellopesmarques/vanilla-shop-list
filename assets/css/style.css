@@ -49,30 +49,30 @@ header.main-header button svg {
     padding-bottom: 6rem;
 }
 
-.product-list li.product {
+.product-list li.item {
     padding: 1rem;
     background-color: #EAEAEA;
     margin-bottom: 0.5rem;
 }
 
-.product-list .product .header {
+.product-list .item .header {
     display: flex;
     justify-content: space-between;
 }
 
-.product-list .product .name {
+.product-list .item .name {
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
     max-width: 100%;
 }
 
-.product-list .product .price {
+.product-list .item .price {
     white-space: nowrap;
 }
 
-.product-list .product .quantity,
-.product-list .product .unity-price {
+.product-list .item .quantity,
+.product-list .item .unity-price {
     font-size: 0.625rem;
     color: #939393
 }

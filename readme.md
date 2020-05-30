@@ -4,6 +4,10 @@
 ## to apply
 https://css-tricks.com/reactive-uis-vanillajs-part-1-pure-functional-style/
 
+## check supports
+https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Statements/import
+
+
 ## Pro Features
 - without ads
 - sync multiples devices
@@ -12,7 +16,6 @@ https://css-tricks.com/reactive-uis-vanillajs-part-1-pure-functional-style/
 ## References
 - https://play.google.com/store/apps/details?id=com.l
 - https://play.google.com/store/apps/details?id=br.com.ridsoftware.shoppinglist&hl=en_US
-
 
 
 ## Thanks for
