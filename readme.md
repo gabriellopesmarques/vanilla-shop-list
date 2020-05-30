@@ -1,6 +1,13 @@
 # Shop List
 
 
+## to apply
+https://css-tricks.com/reactive-uis-vanillajs-part-1-pure-functional-style/
+
+## Pro Features
+- without ads
+- sync multiples devices
+
 
 ## References
 - https://play.google.com/store/apps/details?id=com.l

@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     outline: 0;
+    border: 0;
     background-color: transparent;
     box-sizing: border-box;
 }
@@ -10,6 +11,22 @@ html,
 body {
     height: 100%;
     font-family: 'Numans', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+header.main-header {
+    text-align: right;
+}
+
+header.main-header button svg {
+    height: 1rem;
+}
+
+.navbar {
+    display: none;
 }
 
 .container {
@@ -21,6 +38,7 @@ body {
 .title {
     text-align: center;
     margin-bottom: 1rem;
+    font-weight: lighter;
 }
 
 .product-list {
@@ -28,10 +46,77 @@ body {
     margin-block-start: 0;
     margin-block-end: 0;
     padding-inline-start: 0;
+    padding-bottom: 6rem;
 }
 
-.product-list li {
+.product-list li.product {
     padding: 1rem;
-    background-color: #eaeaea;
+    background-color: #EAEAEA;
+    margin-bottom: 0.5rem;
 }
 
+.product-list .product .header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.product-list .product .name {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 100%;
+}
+
+.product-list .product .price {
+    white-space: nowrap;
+}
+
+.product-list .product .quantity,
+.product-list .product .unity-price {
+    font-size: 0.625rem;
+    color: #939393
+}
+
+.total {
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid #EAEAEA;
+    border-right: 0;
+    border-left: 0;
+    padding: 0.5rem 1rem;
+    margin-bottom: 1rem;
+}
+
+.btn-bottom {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 1rem;
+    background-color: white;
+}
+
+@media (min-width: 800px) {
+    .btn-bottom {
+        margin: 0 -1rem;
+    }
+}
+
+.btn-lg {
+    width: 100%;
+    font-size: 1rem;
+    padding: 1.782rem 0.891rem;
+    max-width: 768px;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.btn-green {
+    background-color: #20C293;
+    color: #fff;
+}
+
+.btn-green:hover {
+    opacity: 0.6;
+}
