@@ -1,5 +1,8 @@
 "use strict";
 
-import ShopList from '/assets/scripts/pages/ShopList.js';
+import router from '/assets/scripts/router.js';
+document.getElementById("app").innerHTML = router.render();
 
-document.getElementById("app").innerHTML = ShopList();
+window.addEventListener('popstate', function (event) {
+    document.getElementById("app").innerHTML = router.render();
+});

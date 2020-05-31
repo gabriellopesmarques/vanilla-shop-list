@@ -3,6 +3,8 @@
 
 ## to apply
 https://css-tricks.com/reactive-uis-vanillajs-part-1-pure-functional-style/
+https://gomakethings.com/how-to-detect-when-the-browser-url-changes-with-vanilla-js/
+https://medium.com/altcampus/implementing-simple-spa-routing-using-vanilla-javascript-53abe399bf3c
 
 ## check supports
 https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Statements/import
@@ -11,6 +13,7 @@ https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Statements/imp
 ## Pro Features
 - without ads
 - sync multiples devices
+- unlimited data storage
 
 
 ## References

@@ -10,7 +10,7 @@ export default function ShopList(){
         <h1 class="title"> Lista de Compras </h1>
         ${Total()}
         ${ProductList()}
-        ${AddItemButton()}
+        ${AddItemButton('a', {'href': '/#add-product'})}
     </div>
     `;
 };
