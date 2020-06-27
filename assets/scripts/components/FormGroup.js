@@ -1,5 +1,4 @@
 export default function FormGroup(label, inputProps) {
-
     let inputProperties = "";
 
     for (let prop in inputProps) {

@@ -1,5 +1,4 @@
 export default function AddItemButton(type, buttonProps) {
-
     let buttonProperties = "";
 
     for (let prop in buttonProps) {
