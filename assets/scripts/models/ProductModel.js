@@ -11,7 +11,7 @@ export default {
         const isSaved = this.select({ id: productObject.id });
 
         if (isSaved.length) {
-            return true;
+            return productObject.id;
         }
 
         return false;

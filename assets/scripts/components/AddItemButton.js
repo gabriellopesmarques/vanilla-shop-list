@@ -1,4 +1,4 @@
-export default function AddItemButton(type, buttonProps) {
+export default function AddItemButton(type, label, buttonProps) {
     let buttonProperties = "";
 
     for (let prop in buttonProps) {
@@ -8,7 +8,7 @@ export default function AddItemButton(type, buttonProps) {
     return `
         <div class="btn-bottom">
             <${type} ${buttonProperties} class="btn-lg btn-green">
-                Adicionar Produto na Lista
+                ${label}
             </${type}>
         </div>
     `;

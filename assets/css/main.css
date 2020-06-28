@@ -1,5 +1,7 @@
 @import '/assets/css/variables.css';
 @import '/assets/css/global.css';
+@import '/assets/css/components/welcome.css';
+@import '/assets/css/components/header.css';
 @import '/assets/css/components/title.css';
 @import '/assets/css/components/button.css';
 @import '/assets/css/components/modal.css';

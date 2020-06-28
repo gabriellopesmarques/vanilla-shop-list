@@ -1,9 +1,9 @@
 export default {
     tableName: "sys",
-    insert(key, value) {
+    insert(key, value, overwrite = false) {
         let sys = this.getData();
 
-        if (sys.hasOwnProperty(key)) {
+        if (!overwrite && sys.hasOwnProperty(key)) {
             return false;
         }
 

@@ -11,7 +11,7 @@ export default {
         const isSaved = this.select({ id: listObject.id });
 
         if (isSaved.length) {
-            return true;
+            return listObject.id;
         }
 
         return false;

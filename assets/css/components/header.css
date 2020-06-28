@@ -1,0 +1,7 @@
+header.main-header {
+    text-align: right;
+}
+
+header.main-header a svg {
+    height: 1rem;
+}

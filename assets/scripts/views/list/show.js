@@ -10,7 +10,7 @@ export default function () {
             <h1 class="title"> Lista de Compras </h1>
             ${Total()}
             ${ProductList()}
-            ${AddItemButton("a", { href: "/#product/create" })}
+            ${AddItemButton("a", "Adicionar Produto na Lista", { href: "/#product/create" })}
         </div>
     `;
 }
