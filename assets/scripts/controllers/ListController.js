@@ -10,16 +10,19 @@ export default {
         return form();
     },
     store: function () {
-        const name = document.querySelector('input[name=name]');
-        const date = document.querySelector('input[name=date]');
-        const budget = document.querySelector('input[name=budget]');
+        const name = document.querySelector("input[name=name]");
+        const date = document.querySelector("input[name=date]");
+        const budget = document.querySelector("input[name=budget]");
 
         if (name.value.length == 0) {
-            return Modal.show("Opa!", 'Você precisa preencher o "Nome da Lista"');
+            return Modal.show(
+                "Opa!",
+                'Você precisa preencher o "Nome da Lista"'
+            );
         }
 
         let list = {
-            name: name.value
+            name: name.value,
         };
 
         if (date.value.length !== 0) {
@@ -34,11 +37,21 @@ export default {
 
         if (id) {
             SysModel.insert("current_list", id, true);
-            window.location.hash = '#list/show';
+            window.location.hash = "#list/show";
         }
     },
     show: function () {
-        return show();
+        const current_list_id = SysModel.select("current_list");
+
+        if (current_list_id === -1) {
+            // maybe change to #list/index later
+            window.location.hash = "#list/create";
+        }
+
+        const list = ListModel.findOne({ id: current_list_id });
+
+        // TODO: get list items
+        return show(list.name, []);
     },
     edit: function () {},
     update: function () {},

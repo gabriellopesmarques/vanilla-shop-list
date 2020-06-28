@@ -3,9 +3,8 @@ export default function () {
         <nav class="navbar">
             <ul>
                 <li>
-                    <a href="/#list/index"> Minhas Listas </a>
+                    <a href="/#list"> Minhas Listas </a>
                 </li>
-                <li>Meus Produtos</li>
                 <li>Politícas de Privacidade</li>
             </ul>
         </nav>

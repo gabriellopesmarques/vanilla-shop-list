@@ -9,11 +9,14 @@ export default {
         "404": ErrorController.error404,
         "/": WelcomeController.index,
         "#menu": MenuController.index,
-        "#product": ProductController.index,
-        "#product/create": ProductController.create,
         "#list": ListController.index,
         "#list/show": ListController.show,
         "#list/create": ListController.create,
+        "#list/edit": ListController.edit,
+        "#product": ProductController.index,
+        "#product/show": ProductController.show,
+        "#product/create": ProductController.create,
+        "#product/edit": ProductController.edit,
     },
     render() {
         const route = location.hash.length > 0 ? location.hash : "/";

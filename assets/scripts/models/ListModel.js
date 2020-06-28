@@ -39,6 +39,15 @@ export default {
 
         return select;
     },
+    findOne(conditions) {
+        const results = this.select(conditions);
+
+        if (typeof results[0] == "object") {
+            return results[0];
+        }
+
+        return false;
+    },
     update(condition, data) {
         let lists = this.getData();
         const select = this.select(condition);

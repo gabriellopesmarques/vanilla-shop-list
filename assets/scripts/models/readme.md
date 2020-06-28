@@ -6,7 +6,7 @@ it's a simple interface to localStorage SQL friendly.
 ```
 ProductModel.insert({
     'name': 'Milk',
-    'price': 4.00 
+    'price': 4.00
 });
 ```
 
@@ -24,7 +24,7 @@ const condition = { 'name': 'Milk' };
 ProductModel.update(condition, { 'price': 5.50 });
 ```
 
-## Delete 
+## Delete
 
 ```
 ProductModel.delete({ 'name': 'Milk' });
@@ -32,7 +32,7 @@ ProductModel.delete({ 'name': 'Milk' });
 
 ## SysModel
 
-While Product and List Models got the same behavior, Sys model is different because store a key/value relationship
+Product and List Models have same behavior, Sys model is different because store a key/value relationship
 
 ### Insert
 ```
