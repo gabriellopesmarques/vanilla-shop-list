@@ -5,6 +5,7 @@
 https://css-tricks.com/reactive-uis-vanillajs-part-1-pure-functional-style/
 https://gomakethings.com/how-to-detect-when-the-browser-url-changes-with-vanilla-js/
 https://medium.com/altcampus/implementing-simple-spa-routing-using-vanilla-javascript-53abe399bf3c
+https://stackoverflow.com/questions/44590393/es6-modules-undefined-onclick-function-after-import
 
 ## check supports
 

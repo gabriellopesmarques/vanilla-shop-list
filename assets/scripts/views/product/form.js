@@ -26,7 +26,7 @@ export default function ShopList() {
                 placeholder: "ex.: 2",
             })}
             ${Promo()}
-            ${AddItemButton("button", { onClick: "addItem" })}
+            ${AddItemButton("button", { id: "addProductInList" })}
         </div>
     `;
-}
+};
