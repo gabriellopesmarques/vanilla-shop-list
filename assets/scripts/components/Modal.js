@@ -1,5 +1,5 @@
 export default {
-    show: function (title, text, theme = "warning") {
+    show: function (title, text, theme = "warning-color") {
         let modal = document.createElement("div");
         modal.setAttribute("id", "modal");
         modal.setAttribute("class", "modal modal-lightbox");

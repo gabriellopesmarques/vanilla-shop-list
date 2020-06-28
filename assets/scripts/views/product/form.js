@@ -14,7 +14,7 @@ export default function ShopList() {
                 autofocus: "",
             })}
             ${FormGroup("Valor Unitário", {
-                type: "text",
+                type: "tel",
                 name: "unity_price",
                 placeholder: "ex.: 4,00",
             })}

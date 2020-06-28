@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    border: 0;
+    background-color: transparent;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    font-family: "Numans", sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+button {
+    font-family: "Numans", sans-serif;
+}
+
+header.main-header {
+    text-align: right;
+}
+
+header.main-header a svg {
+    height: 1rem;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 1rem;
+}
+
+.promo-block {
+    height: 60px;
+    width: 234px;
+    color: #fff;
+    text-transform: uppercase;
+    background-color: var(--gray);
+    text-align: center;
+    padding: 1.3rem 0;
+    margin: 0 auto 8rem auto;
+}
+
+.primary-color {
+    color: var(--primary-color) !important;
+}
+
+.secondary-color {
+    color: var(--secondary-color) !important;
+}
+
+.success-color {
+    color: var(--success-color) !important;
+}
+
+.warning-color {
+    color: var(--warning-color) !important;
+}
+
+.danger-color {
+    color: var(--danger-color) !important;
+}
+
+.primary-bg {
+    background-color: var(--primary-color) !important;
+}
+
+.secondary-bg {
+    background-color: var(--secondary-color) !important;
+}
+
+.success-bg {
+    background-color: var(--success-color) !important;
+}
+
+.warning-bg {
+    background-color: var(--warning-color) !important;
+}
+
+.danger-bg {
+    background-color: var(--danger-color) !important;
+}

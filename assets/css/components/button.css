@@ -1,0 +1,34 @@
+.btn-bottom {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 1rem;
+    background-color: var(--light);
+}
+
+@media (min-width: 800px) {
+    .btn-bottom {
+        margin: 0 -1rem;
+    }
+}
+
+.btn-lg {
+    width: 100%;
+    font-size: 1rem;
+    padding: 1.782rem 0.891rem;
+    max-width: 768px;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.btn-green {
+    background-color: var(--success-color);
+    color: var(--light);
+    box-shadow: var(--box-shadow);
+}
+
+.btn-green:hover {
+    opacity: 0.6;
+}
